@@ -1,0 +1,21 @@
+public class ReverseArray
+{
+    public static void Main()
+    {
+        string[] input = { "1",
+                           "2",
+                           "3" ,
+                           "4",
+                           "5",
+        };
+
+        List<string> inputlist = new List<string>(input);
+        inputlist.Reverse();
+        Console.WriteLine();
+        foreach (string dinosaur in inputlist)
+        {
+            Console.WriteLine(dinosaur);
+        }
+    }
+}
+
